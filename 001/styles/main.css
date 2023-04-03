@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    max-width: 1512px;
+}
+
+.intro {
+    padding: 47.5px 105px 83px;
+    background: #45484E;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-items {
+    padding: 37.5px 0;
+}
+
+.header-item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    padding-right: 39px;
+}
+
+.header-item:last-child {
+    padding-right: 0;
+}
+
+.header-btn {
+    
+}
+
+.header-btn-input {
+    width: 259px;
+    height: 105px;
+    background: #45484E;
+    border-radius: 30px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
