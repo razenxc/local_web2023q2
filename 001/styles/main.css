@@ -34,6 +34,8 @@ input[type="button"] {
     color: #FFFFFF;
 }
 
+/* Intro Block */
+
 .intro {
     height: 1070px;
     color: #FFFFFF;
@@ -132,4 +134,90 @@ input[type="button"] {
     width: 660px;
     height: 97px;
     margin-top: 49px;
+}
+
+/* Features Block */
+
+.features {
+    height: 1055px;
+    color: #45484E;
+    background-color: #fff;
+
+    padding: 178px 102px 0 111px;
+}
+
+.features-header {
+    display: flex;
+    margin-bottom: 76px;
+}
+
+.ft-overtitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #45484E;
+    margin-bottom: 4px;
+}
+
+.ft-heading {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #45484E;
+    margin-bottom: 5px;
+}
+
+.ft-suptitle {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #45484E;
+    opacity: 0.8;
+}
+
+.features-button {
+    width: 305px;
+    height: 113px;
+    margin: 62px 0 0 340px;
+}
+
+.features-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fp-item {
+    width: 410px;
+    height: 516px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 106px rgba(213, 216, 225, 0.35);
+    border-radius: 20px;
+
+}
+
+.fpi-img {
+    border-radius: 20px;
+}
+
+.fp-item-data {
+    padding: 11px 22px 43px 38px;
+}
+
+.fpi-overtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.fpi-price {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.fpi-suptitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.8;
 }
